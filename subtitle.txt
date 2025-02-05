@@ -1,0 +1,35 @@
+Kanban, what I'll show you now is how to calculate the size of
+a bin in a Kanban system. Just as a quick refresher a Kanban
+is a three-bin system and we have three equal sized bins
+in which we hold inventory, for a certain,
+let's say manufacturing process. The idea behind the Kanban system is that
+Bin 1 sits right there where we use it. Bin 2 sits in the shop back room or in an attached warehouse, and
+Bin 3 sits with the supplier. Now the idea about Bin 3 is
+that it is ready to be shipped. We cannot add any wait time or
+any manufacturing time. You can't just say, once I get the order
+I will start building products for Bin 3. That is not possible. It has to be finished
+goods ready to be shipped. Now back to be in Bin 1. As we take items out of Bin 1 and
+it becomes empty, we are going to move Bin
+2 onto the shop floor and place an order to the supplier
+to move Bin 3 into our facility. Now in an ideal system, Bin 1 is almost empty as we
+move Bin 2 onto the shop floor. Bin 3 Is on the shop floor,
+ready to be shipped. Now the big question is,
+how large should the bins be? First of all,
+they should all be the equal size, and that corresponds to the lead time demand. After all those complex
+formulas that I taught you in the previous screen captures,
+this one will be very simple. Here we have an example of demand and the lead time for
+each order that has been shipped. Now, this is based on
+historical information and it is not set up to be
+a Kanban system yet. However, the calculation for
+Kanban is fairly simple. All we need to do is, we need to calculate
+average demand, average lead time, and then from that it's fairly simple to
+do the lead time demand calculation. So to get the average demand,
+we use the Average function. There's that to get the Average Lead Time, the average or historical lead times. And then the lead time demand
+equals the average demand times the average lead time. So in other words, we should have
+a Kanban size of 112 units because on average,
+that's our lead time demand, and we should be able to have a functioning
+Kanban system with this set up. And ship out every five days,
+five and a half days if we need to. So there you see how simple it
+is to set up a Kanban system. There are more complex methods and
+sometimes you do need to take safety stock into account, but at its very core
+this is how simple it can be.
