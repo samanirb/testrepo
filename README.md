@@ -1,2 +1,2 @@
 # testrepo
-Coursera Github Test Projects
+It's a markdown file in this repository
